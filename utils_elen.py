@@ -1,5 +1,5 @@
 ''' ITERATION 1
-
+A
 Module: Stellar Analytics - Reusable Module for My Data Analytics Projects
 
 This module provides a simple, reusable foundation for my analytics projects. 
