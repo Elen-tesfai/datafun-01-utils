@@ -39,7 +39,8 @@ I'll test it in an online interpreter to ensure this version runs correctly befo
 #####################################
 
 byline: str = 'Elen Analytics: Delivering Professional Insights'
-
+def get_byline() -> str:
+    return byline
 #####################################
 # Define a main() function for this module.
 #####################################
@@ -55,7 +56,7 @@ byline: str = 'Elen Analytics: Delivering Professional Insights'
 
 def main() -> None:
     '''Print the byline to the console when this function is called.'''
-    print(byline)
+    print(get_byline())
 
 #####################################
 # Conditional Execution - Only call main() when executing this module as a script.
