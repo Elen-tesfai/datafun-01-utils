@@ -177,4 +177,42 @@ has_international_clients: bool = True
 # Integer variable for the number of years in operation
 years_in_operation: int = 10 
 
+ # List of strings representing the skills offered by the company
+skills_offered: list = ["Data Analysis", "Machine Learning", "Business Intelligence"]
+
+# List of floats representing individual client satisfaction scores
+client_satisfaction_scores: list = [4.8, 4.6, 4.9, 5.0, 4.7]
+
+#####################################
+# Declare a global variable named byline
+# Make it a multiline f-string to show our information
+#####################################
+
+byline: str = f"""
+
+-----------------------------------------------------------
+Elen Analytics: Delivering Professional Insights
+-----------------------------------------------------------
+
+Has International Clients: {has_international_clients}
+Years in Operation:        {years_in_operation}
+Skills Offered:            {skills_offered }
+Client Satisfaction Scores: {client_satisfaction_scores}
+"""
+#####################################
+# Define the get_byline() function
+#####################################  
+
+def get_byline() -> str:
+    '''Return a buline for my analytics projects.'''
+    return byline
+    
+#########################################
+# Define a main() function for this module.
+#########################################
+
+def main() -> None:
+    '''Print results of get_byline() when main() is called.'''
+    print(get_byline())
+    
     
