@@ -8,6 +8,7 @@ a = int(input('Enter 1st number: '))
 b = int(input('Enter 2nd number: '))
 
 print(f'Sum of {a} and {b} is {sum(a, b)}')
+
 ''' ITERATION 1
 
 Module: Elen Analytics - Reusable Module for My Data Analytics Projects
@@ -64,3 +65,116 @@ def main() -> None:
 
 if __name__ == '__main__':
     main()
+    
+    
+   ''' ITERATION 2 
+   Module: Elen Analytics: Delivering Professional Insights
+
+This module provides a simple, reusable foundation for my analytics projects. 
+When we work hard to write useful code, we want it to be reusable.
+A good byline could be used in every Python analytics project we do.
+
+Process:
+Second iteration adds a function to return a string via byline.'''
+
+#####################################
+# Declare a global variable named byline.
+#####################################
+
+byline: str ='Elen Analytics: Delivering Professional Insights'
+
+def get_byline() -> str:
+    '''Return a byline for the project.'''
+    return byline
+    
+#####################################
+# Define a main() function for this module.
+#####################################
+
+# Main function calls get_byline
+
+def main() -> None:
+    '''Print the byline to the console when this function is called.'''
+    print(byline)
+
+#####################################
+# Conditional Execution - Only call main() when executing this module as a script.
+#####################################
+
+if __name__ == '__main__':
+    main()
+    
+ ''' ITERATION 3
+ Module:'Elen Analytics: Delivering Professional Insights'
+ 
+ This module proves a simple, reusable foundation for my analytics projects
+
+Process:
+Declare additional variables to show skills with different data types.
+'''
+######################################
+# Declare global variables - keep byline at the end
+# We will use this information in a smarter byline
+#####################################
+
+# Boolean variable to indicate if the company has international clients
+has_international_clients: bool = True
+
+# Integer variable for the number of years in operation
+years_in''' ITERATION 2 
+   Module: Elen Analytics: Delivering Professional Insights
+
+This module provides a simple, reusable foundation for my analytics projects. 
+When we work hard to write useful code, we want it to be reusable.
+A good byline could be used in every Python analytics project we do.
+
+Process:
+Second iteration adds a function to return a string via byline.'''
+
+#####################################
+# Declare a global variable named byline.
+#####################################
+
+byline: str ='Elen Analytics: Delivering Professional Insights'
+
+def get_byline() -> str:
+    '''Return a byline for the project.'''
+    return byline
+    
+#####################################
+# Define a main() function for this module.
+#####################################
+
+# Main function calls get_byline
+
+def main() -> None:
+    '''Print the byline to the console when this function is called.'''
+    print(byline)
+
+#####################################
+# Conditional Execution - Only call main() when executing this module as a script.
+#####################################
+
+if __name__ == '__main__':
+    main()
+    
+ ''' ITERATION 3
+ Module:'Elen Analytics: Delivering Professional Insights'
+ 
+ This module proves a simple, reusable foundation for my analytics projects
+
+Process:
+Declare additional variables to show skills with different data types.
+'''
+######################################
+# Declare global variables - keep byline at the end
+# We will use this information in a smarter byline
+#####################################
+
+# Boolean variable to indicate if the company has international clients
+has_international_clients: bool = True
+
+# Integer variable for the number of years in operation
+years_in_operation: int = 10 
+
+    
