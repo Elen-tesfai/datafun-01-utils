@@ -177,5 +177,10 @@ has_international_clients: bool = True
 # Integer variable for the number of years in operation
 years_in_operation: int = 10
 
+# List of strings representing the skills offered by the company
+skills_offered: list = ["Data Analysis", "Machine Learning", "Business Intelligence"]
+
+# List of floats representing individual client satisfaction scores
+client_satisfaction_scores: list = [4.8, 4.6, 4.9, 5.0, 4.7]
 
      
