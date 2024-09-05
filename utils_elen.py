@@ -55,3 +55,44 @@ def main() -> None:
 if __name__ == '__main__':
     main()
     
+''' ITERATION 2 
+Module: Elen Analytics: Delivering Professional Insights
+
+This module provides a simple, reusable foundation for my analytics projects. 
+When we work hard to write useful code, we want it to be reusable.
+A good byline could be used in every Python analytics project we do.
+Process:
+Second iteration adds a function to return a string via byline.
+I’ll create a function named get_byline().
+It’ll return by line to whatever calls the get_byline() function.
+I’ll update the main() function to use the new get_byline() function 
+
+Same conditional boilerplate at the end.
+I’ll test this version before adding more code that show:
+-	My ability to declare variables of different types
+-	My ability to use python to calculate basic descriptive statistics'''
+#####################################
+# Declare a global variable named byline.
+#####################################
+
+byline: str ='Elen Analytics: Delivering Professional Insights'
+
+def get_byline() -> str:
+    '''Return a byline for the project.'''
+    return byline
+    
+#####################################
+# Define a main () function for this module.
+#####################################
+
+# Main function calls get_byline() to retrieve the byline.
+def main () -> None:
+    '''Print the byline to the console when this function is called.'''
+    print(get_byline())
+
+#####################################
+# Conditional Execution - Only call main () when executing this module as a script.
+#####################################
+
+if __name__ == '__main__':
+    main ()    
